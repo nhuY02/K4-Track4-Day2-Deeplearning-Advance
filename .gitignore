@@ -1,4 +1,19 @@
 .DS_Store
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+# Generated logs and experiment outputs
+*.log
+logs/
 # dataset and model weights must not be committed (see README.md)
 *.zip
 *.pt
